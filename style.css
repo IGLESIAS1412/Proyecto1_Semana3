@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to left,#00008b, #336699, #ff6502);
+    padding: 20px;
+
+
+
+}
+#Tpagina{
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    padding: 2%;
+    border:2px solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    width: 30%;
+
+    
+    
+    
+}
+#home{
+    background-color: #f1160f;
+}
+#titulo > img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border: 10px solid #f1c40f;
+    border-radius: 90%;
+    padding: 1%;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+.main{
+    
+    background: linear-gradient(to left,#00008b, #336699,#ff6502);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-bottom: 10%;
+    
+    
+}
+.link{
+    padding: 2%;
+    border-bottom: 2px solid black;
+    position: sticky ;
+    top: 0;
+    background: linear-gradient(to left,#00008b,#336699, #ff6502);
+    display: flex;
+    justify-content:space-around;
+    padding-left: 13%;
+    z-index: 1000;
+
+    
+}
+.link > a{
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 1%;
+    color: black ;
+    background-color: #f1c40f;
+    width: 13%;
+    font-size: 80%;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    transform: skew( -15deg);
+    transition: opacity 0.1s ease-in;
+    margin-bottom: 5px;
+   
+    
+}
+.link>a:hover{
+    opacity: 0.5;
+}
+
+.fotos_server > div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    
+
+}
+.fotos_server div> img{
+   
+    width: 45%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    margin: 2%;
+    border: 2px solid;
+    
+   
+    
+}
+
+
+
+/* Hoja 2*/
+.conect > div{
+    display:flex;
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+
+}
+.conect>div>a{
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    background-color: #f1c40f;
+    margin: 3.5%;
+    transition: opacity 0.5s ease;
+
+}
+.conect>div>a:hover{
+    opacity: 0.5; /* Ajusta según el nivel de oscurecimiento deseado */
+
+  }
+.conect > div > a >h3{
+    text-align: center;
+    margin: 1%;
+   
+   
+}
+.conect > div > a >img{
+    width: 100%;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+   
+}
+
+/*NORMAS*/
+
+.rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rules>div{
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-color: #f1c40f;
+    margin: 3.5%;
+    text-align: center;
+    display: flex;
+    border: 2px solid;
+}
+.rules>ol{
+    width: 90%;
+    border-radius:15px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-color: #e7e560;
+    padding-bottom:2%;
+    border: 2px solid;
+    
+}
+.rules>ol>li{
+    padding-bottom: 2%;
+    
+}
+
+
+/* FOOTER*/
+.RRSS{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: #f1c40f;
+    border-top:2px solid;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    
+}
+.RRSS>div{
+    display: flex;
+   
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+.RRSS>div>a{
+    
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 30%;
+    transition: opacity 0.1s ease-in;
+    
+}
+.RRSS>div>a:hover{
+    opacity: 0.5;
+}
+.RRSS>div>a>h4{
+    margin: 0;
+}
+.RRSS>div>a>img{
+    width: 10%;
+
+
+}
+#coffee{
+    width: 80%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    #titulo{
+        background: #336699;
+    }
+    #titulo>img{
+        border: 5px solid #f1c40f;
+    }
+    .main{
+        font-size: 0.7rem;
+        background: #336699;
+
+        
+    }
+    .fotos_server div> img{
+   
+        width: 70%;
+    
+       
+        
+    }
+    .link{
+        background: #336699;
+    }
+    .link> a{
+        width: 18%;
+        height: 10px;
+        padding: 2%;
+        
+        
+       
+        
+    }
+    .conect > div >a{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+    
+ 
+    .RRSS>div>a>h4{
+        display: none;
+    }
+    .RRSS>div>a>img{
+        width: 40%;
+    }
+ 
+
+}
+
