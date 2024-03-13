@@ -21,30 +21,42 @@
         <div class="link">
                      <a href="hoja1.html"> <h3>CONECT</h3></a>
                      <a href="hoja2.html"> <h3>RULES</h3></a>
-                     <a href=""> <h3>RATES<h3></a>
+                     <a href="hoja3.html"> <h3>FOTOS<h3></a>
                      
         </div>
-        
-        <div class="fotos_server">
-            <div>
-                <h3 id="Tpagina">FOTOS DEL SERVER</h3>
-            </div>
-            <div>
-                <img src="https://cdn.discordapp.com/attachments/735196305990615062/1214364729082912808/IMG_20240229_151739_202.webp?ex=65f8d849&is=65e66349&hm=ae01965351e535e6a5c38b3634415defdc004e8980e71c57d7a0b1c63b96c023&" alt="foto1">
-                <img src="https://cdn.discordapp.com/attachments/735196305990615062/1214401967636353075/ArkAscended_3_4_2024_9_38_53_PM.png?ex=65f8faf7&is=65e685f7&hm=5503842fcf86b6a5a32f6908254c824ebd9b298bccdea25afa24df32a4703390&" alt="foto2">
-                <img src="https://cdn.discordapp.com/attachments/735196305990615062/1214621241525276762/ArkRoseFanart.png?ex=65f9c72e&is=65e7522e&hm=b789ecad00b3ae954a3f1c8cbdd2ded6e6ee7c97b8e5b8e730f8bda1d0da70a2&" alt="foto3">
-                <img src="https://cdn.discordapp.com/attachments/735196305990615062/1214639953179574372/20240305184239_1.jpg?ex=65f9d89b&is=65e7639b&hm=8aa3b69e7d833092d5d948c8a5717d0d74fe8a86b8d63f17ad016e0028c163c3&" alt="">
-                <img src="https://media.discordapp.net/attachments/735196305990615062/1215130755026526228/20240302135440_1.jpg?ex=65fba1b4&is=65e92cb4&hm=c0958453fb8d6f69636cb467d04a9a20c781270b70acaf4181947ed38d9de736&=&format=webp&width=1193&height=671" alt="">
-                <img src="https://media.discordapp.net/attachments/735196305990615062/1213360705181327360/ArkAscended_3_1_2024_11_55_25_PM.png?ex=65f53137&is=65e2bc37&hm=811319d3fd07d173ce96d5d7930abb88421dc11010e308a0544286c5fe9b6da0&=&format=webp&quality=lossless&width=1193&height=671" alt="">
-                <img src="https://media.discordapp.net/attachments/735196305990615062/1215190738225336330/20240224125929_1-1.jpg?ex=65fbd991&is=65e96491&hm=31735b4a59ae8c057f4c483928da91da3e02dff72f69e42e82a270b8c1ceb498&=&format=webp&width=1193&height=671" alt="">
-                <img src="https://cdn.discordapp.com/attachments/735196305990615062/1213335362047451207/ArkAscended_3_1_2024_9_42_11_PM.png?ex=65f5199c&is=65e2a49c&hm=1402539267651cd6c78037cab24dc41e498f111c3f6bffe0a218ed460b97b590&" alt="">
-                <img src="https://cdn.discordapp.com/attachments/576888380231647232/1214241117705601035/image.png?ex=65f86529&is=65e5f029&hm=bf6a118d7084a4b98325e7eadb059eb1cb20219cecf44467603a1f8f40e322f4&" alt="">
-            </div>
-
+        <div class="form">
+            <h3 id="Tpagina">REPORT ISSUES</h3> 
+            <form action="#" method="POST">
+                <div>
+                    <input class="completar" type="text" id="discord" name="discord" placeholder="NOMBRE DE DISCORD" required>
+                </div>
+                <div>
+                    <input class="completar" type="text" id="in_game" name="in_game" placeholder="NOMBRE DE SUPERVIVIENTE" required>
+                </div>
+                <div>
+                    <input class="completar" type="text" id="tribu" name="tribu" placeholder="NOMBRE DE TRIBU" required>
+                </div>
+                <div>
+                    <input class="completar" type="text" id="tribu" name="tribu" placeholder="MAPA" required>
+                </div>
+                <div>
+                    <select class="completar" name="tipo" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="incidencia">Incidencia</option>
+                        <option value="bug">Bug</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <textarea class="completar" name="problema" rows="4" placeholder="Escribe una descripción del problema..." required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </div>
-        
-    
-    </div>
+            
 
     
 </body>
